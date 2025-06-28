@@ -14,3 +14,8 @@ services:
      - "1234:8080"
    depends_on:
      - "devopsdb"
+presentation:
+container_demo: devops
+image: app_image
+ports:
+- "1234:8080"
